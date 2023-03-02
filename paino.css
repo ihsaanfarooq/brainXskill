@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url(./download\ \(4\).jpg);
+    /* background-size: 100% 100%; */
+}
+.main{
+    height: 70vh;
+    width: 70%;
+    margin: 100px auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+}
+.one{
+    display: flex;
+    align-items: center;
+    width: 8%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.two{  
+   width: 60%;
+   height: 40%;
+   /* border: 1px solid red; */
+   margin-left: 15px;
+   border-radius: 20px;
+   background-color:  black;
+}
+.affect{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+    border-color: #f10eb87c;
+    box-shadow: 0 0 1.5rem #f10ead7e;
+}
